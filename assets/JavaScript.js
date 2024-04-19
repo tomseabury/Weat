@@ -18,7 +18,7 @@ $(()=> {
     // Button click event to display data
     $("#displayDataBtn").click(() => {
         // Reference to your database node
-        var dataRef = database.ref('your_database_node');
+        var dataRef = database.ref('/Recipes');
 
         // Fetch data once from the database
         dataRef.once('value', (snapshot) => {
