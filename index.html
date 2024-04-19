@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weat - Home</title>
     <link rel="stylesheet" href="assets/styles.css">
+
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js"></script>
+    <script src="/assets/javaScript.js"></script>
 </head>
 
 <body>
@@ -21,6 +25,8 @@
     <section>
         <h2>Welcome to Weat</h2>
         <p>Where meal prep is made easy</p>
+        <button id="displayDataBtn">Display Data</button> <!-- Add this button -->
+        <div id="dataContainer"></div> <!-- Container to display data -->
     </section>
     <footer>
         <p>&copy; 2024 Weat. All rights reserved.</p>
